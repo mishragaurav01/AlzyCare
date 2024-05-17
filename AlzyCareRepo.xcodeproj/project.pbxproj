@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		056C0FCB2BF766DF005F776E /* Album1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056C0FCA2BF766DF005F776E /* Album1.swift */; };
+		056C0FCD2BF7672C005F776E /* PhotoAlbum1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056C0FCC2BF7672C005F776E /* PhotoAlbum1ViewController.swift */; };
 		05BB87F72BF70DFB0065ED6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BB87F62BF70DFB0065ED6F /* AppDelegate.swift */; };
 		05BB87F92BF70DFB0065ED6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BB87F82BF70DFB0065ED6F /* SceneDelegate.swift */; };
 		05BB87FB2BF70DFB0065ED6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BB87FA2BF70DFB0065ED6F /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		056C0FCA2BF766DF005F776E /* Album1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album1.swift; sourceTree = "<group>"; };
+		056C0FCC2BF7672C005F776E /* PhotoAlbum1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAlbum1ViewController.swift; sourceTree = "<group>"; };
 		05BB87F32BF70DFB0065ED6F /* AlzyCareRepo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlzyCareRepo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05BB87F62BF70DFB0065ED6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05BB87F82BF70DFB0065ED6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +56,8 @@
 		05BB87EA2BF70DFB0065ED6F = {
 			isa = PBXGroup;
 			children = (
+				056C0FCA2BF766DF005F776E /* Album1.swift */,
+				056C0FCC2BF7672C005F776E /* PhotoAlbum1ViewController.swift */,
 				05BB87F52BF70DFB0065ED6F /* AlzyCareRepo */,
 				05BB87F42BF70DFB0065ED6F /* Products */,
 			);
@@ -162,7 +168,9 @@
 				05BB87FB2BF70DFB0065ED6F /* ViewController.swift in Sources */,
 				05BB88112BF70F640065ED6F /* PlannerViewController.swift in Sources */,
 				05BB87F72BF70DFB0065ED6F /* AppDelegate.swift in Sources */,
+				056C0FCB2BF766DF005F776E /* Album1.swift in Sources */,
 				05BB87F92BF70DFB0065ED6F /* SceneDelegate.swift in Sources */,
+				056C0FCD2BF7672C005F776E /* PhotoAlbum1ViewController.swift in Sources */,
 				05BB88132BF70F850065ED6F /* AssessmentViewController.swift in Sources */,
 				05BB88152BF70F9A0065ED6F /* MemoryLaneViewController.swift in Sources */,
 			);

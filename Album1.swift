@@ -6,3 +6,10 @@
 //
 
 import Foundation
+class PhotoAlbum1{
+    var imageData: Data?
+    
+    init(imageData: Data? = nil) {
+        self.imageData = imageData!
+    }
+}
