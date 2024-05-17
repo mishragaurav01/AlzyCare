@@ -8,6 +8,12 @@
 import UIKit
 
 class MemoryLaneViewController: UIViewController {
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        self.tabBarItem.title = "Memory Lane"
+        self.tabBarItem.image = UIImage(systemName: "brain")
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

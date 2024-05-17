@@ -8,6 +8,12 @@
 import UIKit
 
 class AssessmentViewController: UIViewController {
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        self.tabBarItem.title = "Assessment"
+        self.tabBarItem.image = UIImage(systemName: "list.clipboard")
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

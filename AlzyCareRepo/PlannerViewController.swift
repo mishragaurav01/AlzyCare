@@ -8,6 +8,12 @@
 import UIKit
 
 class PlannerViewController: UIViewController {
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        self.tabBarItem.title = "Planner"
+        self.tabBarItem.image = UIImage(systemName: "calendar")
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
