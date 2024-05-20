@@ -58,6 +58,8 @@
 		05BB87EA2BF70DFB0065ED6F = {
 			isa = PBXGroup;
 			children = (
+				056C0FCA2BF766DF005F776E /* Album1.swift */,
+				056C0FCC2BF7672C005F776E /* PhotoAlbum1ViewController.swift */,
 				05BB87F52BF70DFB0065ED6F /* AlzyCareRepo */,
 				05BB87F42BF70DFB0065ED6F /* Products */,
 			);
@@ -172,6 +174,7 @@
 				05BB87FB2BF70DFB0065ED6F /* ViewController.swift in Sources */,
 				05BB88112BF70F640065ED6F /* PlannerViewController.swift in Sources */,
 				05BB87F72BF70DFB0065ED6F /* AppDelegate.swift in Sources */,
+				056C0FCB2BF766DF005F776E /* Album1.swift in Sources */,
 				05BB87F92BF70DFB0065ED6F /* SceneDelegate.swift in Sources */,
 				05AA82E42BFB083200920FA6 /* SUggestedGameCollectionViewCell.swift in Sources */,
 				0560A8262BF73E8300925838 /* ProfileViewController.swift in Sources */,

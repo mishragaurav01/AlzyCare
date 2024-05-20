@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ig7-DC-AMS">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Memory Lane-->
+        <scene sceneID="X86-Qs-bXT">
+            <objects>
+                <viewController id="Iz3-C9-R0p" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BH0-Jw-8Ea">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q3Q-IZ-dbH">
+                                <rect key="frame" x="67" y="381" width="258" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="systemPurpleColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Photo Album" buttonSize="large">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Qqn-L7-mHg" kind="show" id="Wg9-DZ-66c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UXB-oM-asf">
+                                <rect key="frame" x="70" y="526" width="258" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="systemPurpleColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Videos" buttonSize="large">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Let's Revisit your past" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DUB-6I-kCe">
+                                <rect key="frame" x="16" y="179" width="237" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello David!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KrU-Sp-gFk">
+                                <rect key="frame" x="16" y="141" width="130" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nUE-l1-VUl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Memory Lane" id="8qY-pg-KDr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eyp-Vo-gXb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4075.5725190839694" y="71.83098591549296"/>
+        </scene>
+        <!--Beach Vacation-->
+        <scene sceneID="flx-2M-7ma">
+            <objects>
+                <viewController id="drk-WD-ALZ" customClass="PhotoAlbum1ViewController" customModule="AlzyCareRepo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rkj-t7-odn">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image1" translatesAutoresizingMaskIntoConstraints="NO" id="zSc-cL-m3H">
+                                <rect key="frame" x="16" y="98" width="361" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image2" translatesAutoresizingMaskIntoConstraints="NO" id="Fvk-C4-GaN">
+                                <rect key="frame" x="16" y="296" width="204" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image3" translatesAutoresizingMaskIntoConstraints="NO" id="cyC-W8-CsN">
+                                <rect key="frame" x="228" y="296" width="148" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5ED-bq-gwu">
+                                <rect key="frame" x="76" y="491" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ElF-OG-ZQp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Beach Vacation" id="ZTt-OX-n9H">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Qma-T0-z6L">
+                            <connections>
+                                <action selector="choosePhotoButtonTapped:" destination="drk-WD-ALZ" id="CFN-Lx-sAu"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="choosePhotoButton" destination="Qma-T0-z6L" id="c1J-wm-QWr"/>
+                        <outlet property="photoImageView" destination="5ED-bq-gwu" id="e63-zk-qjo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mhs-h5-gpJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5734" y="72"/>
+        </scene>
+        <!--Memory Lane-->
+        <scene sceneID="E0s-nE-W9j">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ig7-DC-AMS" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Memory Lane" image="brain" catalog="system" selectedImage="brain.fill" id="ofK-A9-uhH"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4QI-7b-FoG">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Iz3-C9-R0p" kind="relationship" relationship="rootViewController" id="83l-7b-mHr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IGn-ne-jpA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3145.801526717557" y="71.83098591549296"/>
+        </scene>
+        <!--Albums-->
+        <scene sceneID="BFM-Hs-Bz4">
+            <objects>
+                <viewController id="Qqn-L7-mHg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fUk-Ef-8cj">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Y2-bs-LZV">
+                                <rect key="frame" x="0.0" y="103" width="295" height="749"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="jGi-eE-bTF">
+                                        <rect key="frame" x="3" y="-11" width="289" height="1116.6666666666667"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Album1" translatesAutoresizingMaskIntoConstraints="NO" id="5lS-Nq-z3Y">
+                                                <rect key="frame" x="0.0" y="0.0" width="289" height="171"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="171" id="3DD-zF-otb"/>
+                                                    <constraint firstAttribute="width" constant="289" id="8We-D1-8Xe"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8v-k8-Ta0">
+                                                <rect key="frame" x="0.0" y="181" width="289" height="34.333333333333343"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Beach Vacation"/>
+                                                <connections>
+                                                    <segue destination="drk-WD-ALZ" kind="show" id="fLR-FM-e8p"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="album2" translatesAutoresizingMaskIntoConstraints="NO" id="ewK-hQ-kf6">
+                                                <rect key="frame" x="0.0" y="225.33333333333331" width="289" height="171"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="171" id="baM-dr-Fl8"/>
+                                                    <constraint firstAttribute="width" constant="289" id="hee-Ui-VWN"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eac-Ag-kWR">
+                                                <rect key="frame" x="0.0" y="406.33333333333331" width="289" height="34.333333333333314"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Birthdays"/>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="album3" translatesAutoresizingMaskIntoConstraints="NO" id="ltN-O5-Mkb">
+                                                <rect key="frame" x="0.0" y="450.66666666666663" width="289" height="171"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="289" id="272-kQ-84l"/>
+                                                    <constraint firstAttribute="height" constant="171" id="8g7-P8-gAa"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qaO-o2-dYN">
+                                                <rect key="frame" x="0.0" y="631.66666666666663" width="289" height="34.333333333333371"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Cooking Sessions"/>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="album4" translatesAutoresizingMaskIntoConstraints="NO" id="MVd-hV-5JC">
+                                                <rect key="frame" x="0.0" y="676" width="289" height="171"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="171" id="Uh5-qr-caO"/>
+                                                    <constraint firstAttribute="width" constant="289" id="ZMW-co-bi8"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M4e-GQ-W9e">
+                                                <rect key="frame" x="0.0" y="857" width="289" height="34.333333333333371"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Gardening"/>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="album5" translatesAutoresizingMaskIntoConstraints="NO" id="BMf-9U-tcX">
+                                                <rect key="frame" x="0.0" y="901.33333333333337" width="289" height="171.00000000000011"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="289" id="ngU-qk-X0U"/>
+                                                    <constraint firstAttribute="height" constant="171" id="pju-i5-Buz"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IgJ-D8-Qg7">
+                                                <rect key="frame" x="0.0" y="1082.3333333333333" width="289" height="34.333333333333258"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Friends"/>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="5lS-Nq-z3Y" secondAttribute="trailing" constant="20" id="5J5-VC-WG8"/>
+                                            <constraint firstItem="5lS-Nq-z3Y" firstAttribute="leading" secondItem="jGi-eE-bTF" secondAttribute="leading" constant="20" id="rTp-G2-7qg"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="jGi-eE-bTF" firstAttribute="top" secondItem="0Y2-bs-LZV" secondAttribute="top" id="5CV-eF-8Dy"/>
+                                    <constraint firstItem="jGi-eE-bTF" firstAttribute="leading" secondItem="0Y2-bs-LZV" secondAttribute="leading" id="Mqw-kK-frB"/>
+                                    <constraint firstItem="jGi-eE-bTF" firstAttribute="width" secondItem="0Y2-bs-LZV" secondAttribute="width" multiplier="0.979644" id="meQ-xc-epK"/>
+                                    <constraint firstAttribute="trailing" secondItem="jGi-eE-bTF" secondAttribute="trailing" id="pbj-4d-HWQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="jGi-eE-bTF" secondAttribute="bottom" id="rKV-XT-QGm"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Ub6-Nd-w7D"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="3n3-sO-pe1"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IzD-Tj-Pb2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0Y2-bs-LZV" firstAttribute="trailing" secondItem="IzD-Tj-Pb2" secondAttribute="trailing" id="ae6-8v-jhN"/>
+                            <constraint firstItem="0Y2-bs-LZV" firstAttribute="top" secondItem="IzD-Tj-Pb2" secondAttribute="top" id="lAZ-YF-m4h"/>
+                            <constraint firstAttribute="bottom" secondItem="0Y2-bs-LZV" secondAttribute="bottom" id="waD-Pc-OsF"/>
+                            <constraint firstItem="0Y2-bs-LZV" firstAttribute="leading" secondItem="IzD-Tj-Pb2" secondAttribute="leading" id="y0h-Xt-XKu"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Albums" id="K7x-Kl-Ma2">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="41z-Os-k9n"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e5F-fh-dYM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4935" y="72"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Album1" width="634" height="342"/>
+        <image name="Image1" width="836" height="582"/>
+        <image name="Image2" width="822" height="566"/>
+        <image name="Image3" width="1440" height="810"/>
+        <image name="album2" width="774" height="424"/>
+        <image name="album3" width="634" height="410"/>
+        <image name="album4" width="1030" height="688"/>
+        <image name="album5" width="560" height="320"/>
+        <image name="brain" catalog="system" width="128" height="107"/>
+        <image name="brain.fill" catalog="system" width="128" height="107"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
